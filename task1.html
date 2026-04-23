@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<input type="text" id="n" placeholder="Name"><br><br>
+<input type="email" id="e" placeholder="Email"><br><br>
+<input type="password" id="p" placeholder="Password"><br><br>
+
+<button type="button" onclick="f()">Register</button>
+</form>
+
+<script>
+function f() {
+  if (n.value=="" || e.value=="" || p.value=="")
+    alert("Please fill in all fields.");
+  else
+    alert("Registration Successful!");
+}
+</script>
+
+</body>
+</html>
